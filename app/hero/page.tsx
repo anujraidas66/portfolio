@@ -148,7 +148,7 @@ export default function Hero() {
                   width={420}
                   height={420}
                   priority
-                  className="rounded-full object-cover w-75 h-[300px] md:w-[420px] md:h-[420px] border-4 border-black"
+                  className="rounded-full object-cover w-75 h-75 md:w-105 md:h-105 border-4 border-black"
                 />
               </motion.div>
 
