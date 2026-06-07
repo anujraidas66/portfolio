@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@keyframes shine {
+  100% {
+    transform: translateX(250%);
+  }
+}
+
+.animate-shine {
+  animation: shine 3s infinite linear;
+}
+
+html {
+  scroll-behavior: smooth;
+}
