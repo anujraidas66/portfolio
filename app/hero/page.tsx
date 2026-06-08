@@ -27,9 +27,9 @@ export default function Hero() {
 
             <h1 className="mt-4 text-5xl md:text-6xl font-black text-white leading-tight">
              Hi, I&apos;m Anuj Raidas
-              <span className="bg-linear-to-r from-yellow-300 via-yellow-500 to-orange-500 bg-clip-text text-transparent">
+              {/* <span className="bg-linear-to-r from-yellow-300 via-yellow-500 to-orange-500 bg-clip-text text-transparent">
                 Anuj Raidas
-              </span>
+              </span> */}
             </h1>
 
             <div className="mt-6 text-2xl md:text-3xl font-semibold text-white h-14">
