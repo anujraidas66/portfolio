@@ -84,7 +84,7 @@ export default function Navbar() {
 
         {/* Resume Button */}
        <Link
-  href="/certificate.png"
+  href="https://www.mindrisers.com.np/certificate/validate/MR-82031-MS"
   target="_blank"
   className="px-4 py-2 rounded-lg border border-yellow-400 text-white hover:bg-yellow-400 hover:text-black transition"
 >

@@ -37,19 +37,19 @@ const projects = [
     live: "https://online-bookstore-frontend-tawny.vercel.app/",
   },
   {
-    title: "Gantabya",
-    description:
-      "Job searching platform with authentication, filtering, and application management.",
-    image: "/gantabya.avif",
-    technologies: [
-      "Next.js",
-      "Tailwind CSS",
-      "TypeScript",
-      "Shadcn UI",
-    ],
-    github: "https://github.com/anujraidas66/gantabya-mobility",
-    live: "https://gantabya-mobility-sage.vercel.app/",
-  },
+  title: "Gantabya Mobility",
+  description:
+    "Building EV charging infrastructure and innovative mobility solutions for sustainable transportation. Driving the transition toward electric vehicle adoption in Nepal.",
+  image: "/gantabya.avif",
+  technologies: [
+    "Next.js",
+    "Tailwind CSS",
+    "TypeScript",
+    "Shadcn UI",
+  ],
+  github: "https://github.com/anujraidas66/gantabya-mobility",
+  live: "https://gantabya-mobility-sage.vercel.app/",
+},
 ];
 
 

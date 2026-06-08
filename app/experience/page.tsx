@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <main className="min-h-screen bg-black text-white pt-32 px-6">
+    <main className="min-h-screen bg-black text-white pt-32 px-6 pb-10">
 
       {/* Header */}
       <div className="max-w-5xl mx-auto text-center">
@@ -26,9 +26,7 @@ export default function Experience() {
             Furniture E-Commerce Website
           </p>
 
-          <p className="text-zinc-500 mt-3 text-sm">
-            2025 - Present
-          </p>
+          
 
           <p className="mt-5 text-zinc-400 leading-7">
             Built multiple full-stack applications using React, Next.js,
@@ -44,39 +42,36 @@ export default function Experience() {
           </h2>
 
           <p className="text-yellow-400 mt-1">
-            Ganatabya Mobility Website
+            Ganatabya Mobility 
           </p>
 
-          <p className="text-zinc-500 mt-3 text-sm">
-            2026
-          </p>
+        
 
           <p className="mt-5 text-zinc-400 leading-7">
-            Focused on Next.js, Tailwind CSS, and responsive UI design.
+           Gantabya Mobility is a technology-driven electric mobility platform focused on developing EV charging infrastructure and sustainable transportation solutions to accelerate electric vehicle adoption in Nepal.
           </p>
         </div>
 
-        {/* 3 */}
-        <div className="border border-white/10 rounded-2xl p-8 bg-zinc-950 hover:border-yellow-400 transition">
-          <h2 className="text-2xl font-semibold text-white">
-            JavaScript & Web Development Learning
-          </h2>
+       
 
-          <p className="text-yellow-400 mt-1">
-            Self Learning
-          </p>
+       <div className="border border-white/10 rounded-2xl p-8 bg-zinc-950">
+  <h2 className="text-2xl font-semibold text-white">
+    Full Stack Developer (Project Experience)
+  </h2>
 
-          <p className="text-zinc-500 mt-3 text-sm">
-            2022 - 2023
-          </p>
+  <p className="text-yellow-400 mt-1">
+    Online Bookstore Web Application • MERN Stack
+  </p>
 
-          <p className="mt-5 text-zinc-400 leading-7">
-            Started with HTML, CSS, and JavaScript fundamentals.
-            Learned DOM manipulation, API integration, and basic backend
-            concepts before moving into MERN stack.
-          </p>
-        </div>
-
+  <p className="mt-5 text-zinc-400 leading-7">
+    Developed a full-stack online bookstore application focusing on
+    CRUD operations for managing books and user data. Implemented
+    Create, Read, Update, and Delete functionality for book management
+    using a RESTful API architecture. Built the backend using Node.js,
+    Express.js, and MongoDB, and developed a responsive frontend using
+    React.js for seamless user interaction.
+  </p>
+</div>
       </div>
     </main>
   );
