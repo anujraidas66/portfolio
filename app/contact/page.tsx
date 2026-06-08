@@ -44,12 +44,12 @@ export default function Contact() {
 
           <div className="bg-zinc-950 border border-white/10 rounded-2xl p-6">
             <h2 className="text-xl font-semibold text-white">Email</h2>
-            <p className="text-zinc-400 mt-2">anuj@example.com</p>
+            <p className="text-zinc-400 mt-2">anujraidas7@gmail.com</p>
           </div>
 
           <div className="bg-zinc-950 border border-white/10 rounded-2xl p-6">
             <h2 className="text-xl font-semibold text-white">Phone</h2>
-            <p className="text-zinc-400 mt-2">+977 98XXXXXXXX</p>
+            <p className="text-zinc-400 mt-2">+977 9701654774</p>
           </div>
 
           <div className="bg-zinc-950 border border-white/10 rounded-2xl p-6">

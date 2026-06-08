@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="relative bg-black text-white overflow-hidden border-t border-white/10">
 
       {/* Glow Background */}
-      <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/10 via-transparent to-orange-500/10 blur-3xl" />
+      <div className="absolute inset-0 bg-linear-to-r from-yellow-500/10 via-transparent to-orange-500/10 blur-3xl" />
 
       <div className="relative max-w-7xl mx-auto px-6 py-20">
 
@@ -72,7 +72,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/anuj-raidas-0a389238a/"
                 target="_blank"
                 className="px-4 py-2 rounded-xl bg-white/5 border border-white/10 hover:border-yellow-400 hover:text-yellow-400 transition"
               >
