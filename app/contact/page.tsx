@@ -23,7 +23,7 @@ export default function Contact() {
   };
 
   return (
-    <main className="min-h-screen bg-black text-white pt-32 px-6 pb-20 ">
+    <main className="min-h-screen bg-black text-white pt-32 px-6 pb-20">
 
       {/* Header */}
       <div className="max-w-5xl mx-auto text-center">
@@ -36,39 +36,18 @@ export default function Contact() {
         </p>
       </div>
 
-      {/* Content */}
-      <div className="max-w-5xl mx-auto mt-16 grid md:grid-cols-2 gap-10">
-
-        {/* Contact Info */}
-        <div className="space-y-6">
-
-          <div className="bg-zinc-950 border border-white/10 rounded-2xl p-6">
-            <h2 className="text-xl font-semibold text-white">Email</h2>
-            <p className="text-zinc-400 mt-2">anujraidas7@gmail.com</p>
-          </div>
-
-          <div className="bg-zinc-950 border border-white/10 rounded-2xl p-6">
-            <h2 className="text-xl font-semibold text-white">Phone</h2>
-            <p className="text-zinc-400 mt-2">+977 9701654774</p>
-          </div>
-
-          <div className="bg-zinc-950 border border-white/10 rounded-2xl p-6">
-            <h2 className="text-xl font-semibold text-white">Location</h2>
-            <p className="text-zinc-400 mt-2">Kathmandu, Nepal</p>
-          </div>
-
-        </div>
+      {/* Form + Map Section */}
+      <div className="max-w-7xl mx-auto mt-16 grid md:grid-cols-2 gap-10 items-stretch">
 
         {/* Contact Form */}
         <form
           onSubmit={handleSubmit}
-          className="bg-zinc-950 border border-white/10 rounded-2xl p-8 space-y-5"
+          className="h-full bg-zinc-950 border border-white/10 rounded-2xl p-8 flex flex-col space-y-5"
         >
-          <h2 className="text-2xl font-bold text-white">
+          <h2 className="text-2xl font-bold text-white mb-2">
             Send Message
           </h2>
 
-          {/* Name */}
           <input
             type="text"
             name="name"
@@ -79,7 +58,6 @@ export default function Contact() {
             required
           />
 
-          {/* Email */}
           <input
             type="email"
             name="email"
@@ -90,18 +68,16 @@ export default function Contact() {
             required
           />
 
-          {/* Message */}
           <textarea
             name="message"
             placeholder="Your Message"
             value={form.message}
             onChange={handleChange}
-            rows={5}
-            className="w-full px-4 py-3 bg-black border border-white/10 rounded-xl text-white outline-none focus:border-yellow-400"
+            rows={8}
+            className="w-full px-4 py-3 bg-black border border-white/10 rounded-xl text-white outline-none focus:border-yellow-400 flex-1"
             required
           />
 
-          {/* Button */}
           <button
             type="submit"
             className="w-full bg-linear-to-r from-yellow-400 to-orange-500 text-black font-semibold py-3 rounded-xl hover:scale-105 transition"
@@ -110,6 +86,25 @@ export default function Contact() {
           </button>
         </form>
 
+        {/* Map Section */}
+        <div className="h-full bg-zinc-950 border border-white/10 rounded-2xl p-6 flex flex-col">
+          
+          <h2 className="text-2xl font-bold text-yellow-400 mb-4">
+            My Location
+          </h2>
+
+          <div className="flex-1 overflow-hidden rounded-xl">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113202.13468855886!2d82.97552487334248!3d27.544917353397075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996e53ea48469cd%3A0xb245eb7a78eec71c!2sKapilvastu%2032800!5e0!3m2!1sen!2snp!4v1781793638316!5m2!1sen!2snp"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+            />
+          </div>
+
+
+        </div>
       </div>
     </main>
   );
