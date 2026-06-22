@@ -4,15 +4,14 @@ export default function Footer() {
   return (
     <footer className="relative bg-black text-white overflow-hidden border-t border-white/10">
 
-      {/* Glow Background */}
       <div className="absolute inset-0 bg-linear-to-r from-yellow-500/10 via-transparent to-orange-500/10 blur-3xl" />
 
       <div className="relative max-w-7xl mx-auto px-6 py-20">
 
-        {/* Top Section */}
+    
         <div className="grid md:grid-cols-3 gap-12">
 
-          {/* Brand */}
+       
           <div>
             <h1 className="text-4xl font-black text-yellow-400">
               ANUJ<span className="text-white">.</span>
@@ -24,7 +23,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Links */}
           <div>
             <h2 className="text-xl font-semibold mb-5 text-white">
               Navigation
@@ -49,7 +47,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Contact */}
+          
           <div>
             <h2 className="text-xl font-semibold mb-5 text-white">
               Get In Touch
@@ -61,7 +59,6 @@ export default function Footer() {
               <p>📞 +977 9701654744</p>
             </div>
 
-            {/* Buttons */}
             <div className="flex gap-3 mt-6">
               <a
                 href="https://github.com/anujraidas66"
@@ -83,18 +80,14 @@ export default function Footer() {
 
         </div>
 
-        {/* Divider */}
+        
         <div className="my-12 border-t border-white/10" />
 
-        {/* Bottom */}
+     
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
 
           <p className="text-zinc-500 text-sm">
             © {new Date().getFullYear()} Anuj Raidas. All rights reserved.
-          </p>
-
-          <p className="text-yellow-400 text-sm font-medium">
-            Built with Next.js & Tailwind CSS 🚀
           </p>
 
         </div>
