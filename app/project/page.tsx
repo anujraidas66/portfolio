@@ -48,7 +48,7 @@ const projects = [
     "Shadcn UI",
   ],
   github: "https://github.com/anujraidas66/gantabya-mobility",
-  live: "https://gantabya-mobility-sage.vercel.app/",
+  live: "https://gantabya-mobility-h81j.vercel.app/",
 },
 ];
 
