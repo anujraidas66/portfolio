@@ -24,7 +24,7 @@ export default function Hero() {
 
           {/* Heading */}
           <h1 className="mt-5 text-5xl md:text-7xl font-black text-white leading-tight">
-  Hi, I&apos;m <span className="bg-linear-to-r from-yellow-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent">Anuj Raidas</span>
+  Hi, I&apos;m <span className="bg-linear-to-r from-yellow-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent">Anuj Kumar Raidas</span>
 </h1>
 
           {/* Typing */}
